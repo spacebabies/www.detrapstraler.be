@@ -1,0 +1,12 @@
+{
+  "name": "www.detrapstraler.be",
+  "version": "1.0.0",
+  "main": "public/index.html",
+  "repository": "git@github.com:spacebabies/www.detrapstraler.be.git",
+  "author": "Joost Baaij <joost@spacebabies.nl>",
+  "license": "Unlicensed",
+  "private": true,
+  "engines": {
+    "node": ">= 16.0.0"
+  }
+}

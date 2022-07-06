@@ -1,3 +1,8 @@
 baseURL = 'https://www.detrapstraler.be/'
 languageCode = 'nl-be'
 title = 'deTrapstraler'
+theme = "detrapstraler"
+disableHugoGeneratorInject = true
+enableGitInfo = true
+enableRobotsTXT = true
+defaultContentLanguage = 'nl'
