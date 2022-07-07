@@ -6,12 +6,8 @@
 	<img class="d-none" src="{{ .bg_image_webp | absURL }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'"/>
 
 	<div class="block">
-		{{ if .icon }}
-		<div class="video-button">
-			<i class="{{ .icon }}"></i>
-		</div>
-		{{ end }}
-		<h1>{{ .title | markdownify }}</h1>
+    {{ with .icon }}<img src="{{ . }}" width="60" height="60">{{ end }}
+		<h1>{{ with .title }}{{ . }}{{ else }}{{ $.Site.Title }}{{ end }}</h1>
 		<p>{{ .content | markdownify }}</p>
 		{{ if .button.enable }}
 		{{ with .button }}

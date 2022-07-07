@@ -1,4 +1,0 @@
----
----
-
-![deTrapstraler](deTrapstraler.jpg)

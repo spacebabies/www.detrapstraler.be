@@ -1,13 +1,17 @@
 <head>
 	<meta charset="utf-8">
-	<title>{{ .Title }}</title>
-
-	{{ "<!-- mobile responsive meta -->" | safeHTML }}
+  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-	{{ with site.Params.author }}
-	<meta name="author" content="{{ . }}">{{ end }}
-	{{ hugo.Generator }}
+	{{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 
 	{{ "<!-- plugins -->" | safeHTML }}
 	{{ range site.Params.plugins.css }}
@@ -21,21 +25,5 @@
 	{{"<!-- Custom stylesheet - for your changes -->" |safeHTML}}
 	{{ $custom := resources.Get "css/custom.css" | minify }}
   <link rel="stylesheet" href="{{ $custom.Permalink }}" media="screen">
-
-	{{ "<!--Favicon-->" | safeHTML }}
-	<link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
-	<link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
-
-	{{ with site.Params.google_analytics_id }}
-	{{ "<!-- Global Site Tag (gtag.js) - Google Analytics -->" | safeHTML }}
-	<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', '{{ . }}');
-	</script>
-	{{ end }}
 
 </head>

@@ -1,0 +1,11 @@
+/**
+ our palette, from light to dark:
+ - #faf3e0
+ - #eabf9f
+ - #b68973
+ - #1e212d
+ */
+
+.hero-area .block h1 {
+  color: #faf3e0;
+}
