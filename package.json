@@ -8,5 +8,8 @@
   "private": true,
   "engines": {
     "node": ">= 16.0.0"
+  },
+  "dependencies": {
+    "netlify-plugin-hugo-cache-resources": "^0.2.1"
   }
 }
