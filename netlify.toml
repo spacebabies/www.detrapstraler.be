@@ -1,6 +1,10 @@
 [build]
-publish = "public"
-command = "hugo --gc --minify"
+  publish = "public"
+  command = "hugo --gc --minify"
 [build.environment]
+  HUGO_ENABLEGITINFO = "true"
+  HUGO_ENV = "production"
   HUGO_VERSION = "0.92.2"
-  GO_VERSION = "1.18.3"
+  NETLIFY_USE_YARN = "true"
+[context.deploy-preview]
+  command = "hugo --buildDrafts --buildFuture -b $DEPLOY_PRIME_URL"
