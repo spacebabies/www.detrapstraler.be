@@ -36,18 +36,18 @@ link = "plugins/lazy-load/lozad.min.js"
 link = "plugins/google-map/map.js"
 
 [[menu.main]]
-name = "about"
-url = "#about"
+name = "realisaties"
+url = "#realisaties"
 weight = 1
 
 [[menu.main]]
-name = "services"
-url = "#services"
+name = "prijsopgave"
+url = "#prijsopgave"
 weight = 2
 
 [[menu.main]]
-name = "portfolio"
-url = "#portfolio"
+name = "contact"
+url = "#contact"
 weight = 3
 
 

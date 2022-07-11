@@ -1,27 +1,27 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/about-business-man.jpg
-  image_webp : images/about/about-business-man.webp
-  title : We’re A Digital Design Agency.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
-  feature_item : 
+  image : images/feature/20220619_101457.jpg
+  image_webp : images/feature/20220619_101457.jpg
+  title : Wij zetten uw wensen voorop
+  content : Omdat elke trap anders is, en een eigen aanpak vereist, overleggen we graag welk resultaat u wenst.
+  feature_item :
       # feature item loop
-    - title : SEO Optimized
+    - title : Trap met benefits
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
-      # feature item loop
-    - title : Easy Customization
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Of het enkel om de trap gaat, of ook meteen de deuren of het gehele huis, de keuze is aan u. De mogelijkheden zijn oneindig.
 
       # feature item loop
-    - title : SEO Optimized
-      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
+    - title : En erna
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : Na het stralen kunnen wij ook de nabehandeling verzorgen. Wij kunnen deze aanbrengen, maar we verkopen de producten ook los. Na een korte uitleg kunt u dan zelf aan de slag.
+
       # feature item loop
-    - title : Easy Customization
+    - title : Beits of olie
+      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+      content : Ons voorkeurssysteem is beits met 2k parketvernis, maar we hebben ook een fraaie olie in ons assortiment/
+
+      # feature item loop
+    - title : TODO NOGIETS
       icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
