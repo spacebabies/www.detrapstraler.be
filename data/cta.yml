@@ -3,9 +3,9 @@ cta:
   enable : true
   bg_image : "images/backgrounds/bg-white-wall.jpg"
   bg_image_webp : "images/backgrounds/bg-white-wall.webp"
-  title : "Great Design & Incredible Features"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+  title : Luchtgommen van alle soorten en types houten trappen
+  content : Door middel van luchtdruk en een polijstmiddel verwijderen wij oude verf-, vernis- of vuile lagen. Uiteraard gebeurt dit uiterst nauwkeurig. Het resultaat is weer de originele houtkleur. Om deze te conserveren, zullen we nabehandelen met beits of vernis.
   button:
     enable : true
-    label : "Start a project with us"
+    label : Laten we beginnen
     link : "#contact"

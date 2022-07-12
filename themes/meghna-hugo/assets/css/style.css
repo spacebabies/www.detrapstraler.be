@@ -9,13 +9,13 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 /*=== MEDIA QUERY ===*/
 html {
   background-color: #353b43;
-  color: #737f8a;
+  color: var(--palette-lighter);
 }
 
 body {
   background-color: #353b43;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: var(--palette-lighter);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -27,7 +27,7 @@ h5,
 h6 {
   font-weight: 400;
   font-family: "Quattrocento Sans", sans-serif;
-  color: #afbac4;
+  color: var(--palette-light);
 }
 
 p {
@@ -39,7 +39,7 @@ p {
 }
 
 pre {
-  color: #afbac4;
+  color: var(--palette-light);
 }
 
 /*=================================================================
@@ -229,7 +229,7 @@ a:hover {
 }
 
 .btn-main:hover {
-  background: #2c9091;
+  background: var(--palette-dark);
   color: #fff;
 }
 
@@ -489,7 +489,7 @@ a:hover {
 .hero-area .block p {
   color: #fff;
   font-size: 20px;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -606,7 +606,7 @@ a:hover {
 }
 
 .about .block .icon-box h3 {
-  color: #afbac4;
+  color: var(--palette-light);
 }
 
 /*=================================================================
@@ -718,8 +718,8 @@ a:hover {
 }
 
 #contact-submit:hover {
-  border-color: #2c9091;
-  background-color: #2c9091;
+  border-color: var(--palette-dark);
+  background-color: var(--palette-dark);
 }
 
 .form-meghna ::placeholder {
@@ -864,7 +864,7 @@ a:hover {
   font-size: 16px;
   padding: 6px 20px;
   font-weight: 700;
-  color: #737f8a;
+  color: var(--palette-lighter);
   transition: .3s all;
 }
 
@@ -1127,7 +1127,7 @@ a:hover {
 }
 
 .client-comment p {
-  color: #afbac4;
+  color: var(--palette-light);
   font-size: 18px;
 }
 
@@ -1489,13 +1489,13 @@ a:hover {
 }
 
 .post-comment-name {
-  color: #afbac4;
+  color: var(--palette-light);
   font-weight: 500;
   font-size: 18px;
 }
 
 .post-time {
-  color: #737f8a;
+  color: var(--palette-lighter);
 }
 
 input#e-mail,
