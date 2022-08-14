@@ -4,31 +4,31 @@ service:
   title : Onze diensten
   service_item :
     # service item loop
-    - name : WordPress Theme
-      icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - name : Alle soorten hout
+      icon : ti-direction-alt # themify icon pack : https://themify.me/themify-icons
+      content : Van eikenn tot bamboe passen wij de juiste methodes toe om deze grondig en zorgvuldig te reinigen.
 
     # service item loop
-    - name : Responsive Design
-      icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - name : IJzeren onderdelen
+      icon : ti-pin # themify icon pack : https://themify.me/themify-icons
+      content : Ornamenten en dergelijke kunnen wij afzonderlijk reinigen en desgewenst van een nieuwe strakke verflaag voorzien.
 
     # service item loop
-    - name : Media &amp; Advertisement
-      icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - name : Fineer
+      icon :  ti-layout-width-default-alt  # themify icon pack : https://themify.me/themify-icons
+      content : Ook als uw trap niet massief hout is, is reinigen mogelijk. Hetzelfde geldt voor delicate houten onderdelen zoals lamellen.
 
     # service item loop
-    - name : Graphic Design
-      icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - name : Professionele afzuiging
+      icon : ti-loop # themify icon pack : https://themify.me/themify-icons
+      content : Reinigen door middel van stralen kan veel stof en zaagsel opleveren. Wij zorgen dat dit zoveel mogelijk direct naar buiten wordt afgevoerd.
 
     # service item loop
-    - name : Apps Development
-      icon : ti-package # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - name : Herstelwerkzaamheden
+      icon : ti-hummer # themify icon pack : https://themify.me/themify-icons
+      content : Zijn er putjes, scheuren of zelfs rotte delen? Geen probleem. Deze herstellen of vervangen wij voor u, het resultaat zal u verbazen.
 
     # service item loop
-    - name : Networking
-      icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - name : Hang- en sluitwerk
+      icon : ti-lock # themify icon pack : https://themify.me/themify-icons
+      content : Sloten, scharnieren en andere bewegende delen kunnen wij in onze studio diep reinigen en weer tot leven brengen.
